@@ -1,8 +1,4 @@
-<%-- 
-    Document   : home
-    Created on : 25/10/2022, 22:14:21
-    Author     : GERARD
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -46,8 +42,8 @@
                 Consultar
             </a>
         <div class="dropdown-menu">
-                <a class="dropdown-item" href="Ver">Libros</a>
-                <a class="dropdown-item" href="Ver">Generos</a>
+                <a class="dropdown-item" href="VerArticulo.jsp">Articulo</a>
+               
             </div>
         </li>
       
@@ -58,8 +54,8 @@
                 Registrar
             </a>
         <div class="dropdown-menu">
-                <a class="dropdown-item" href="Re">Libros</a>
-                <a class="dropdown-item" href="Re">Generos</a>
+                <a class="dropdown-item" href="articulo.jsp">Articulo</a>
+               
             </div>
         </li>
     </ul>
